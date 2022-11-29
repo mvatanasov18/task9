@@ -1,5 +1,9 @@
 import "../scss/app.scss";
 
 window.addEventListener("DOMContentLoaded", () => {
-  // This block will be executed once the page is loaded and ready
+  var hui = document.getElementsByClassName('hot');
+  Array.from(hui).forEach(pishka=>{
+    pishka.textContent+="🔥";
+    
+  })
 });
